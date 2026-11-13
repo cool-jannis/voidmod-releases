@@ -16,13 +16,13 @@ jobs:
           java-version: '25'
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '9.5.1'
+          gradle-version: '9.6.0'
       - name: Build mod
         run: gradle build --no-daemon
       - name: Upload mod JAR
         uses: actions/upload-artifact@v4
         with:
-          name: ChestESP-Fabric-1.26.2
+          name: ChestESP-Fabric-26.2
           path: |
             build/libs/chestesp-*.jar
             !build/libs/*-sources.jar
