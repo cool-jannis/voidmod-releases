@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "chestesp",
+  "version": "${version}",
+  "name": "ChestESP",
+  "description": "White chest outlines visible through solid blocks.",
+  "authors": ["Voids"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["de.voids.chestesp.ChestEspClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
